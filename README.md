@@ -49,7 +49,7 @@ Letter Drive is a web-based letter writing application that allows users to crea
 
 1. Clone the repository
 ```bash
-git clone https://github.com/manishkapoor5/WordLetter.git
+git clone https://github.com/manishkapoor5/WordLetterApp.git
 cd client
 ```
 
@@ -110,6 +110,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - manishkapoorrr13@gmail.com
 
-Project Link: [https://github.com/manishkapoor5/WordLetter](https://github.com/manishkapoor5/WordLetter)
+Project Link: [https://github.com/manishkapoor5/WordLetterApp](https://github.com/manishkapoor5/WordLetterApp)
 
 ---
