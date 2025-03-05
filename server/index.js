@@ -65,7 +65,7 @@ app.get('/api/auth/google/url', (req, res) => {
 });
 
 // Google OAuth callback route
-app.get('/api/auth/google/callback', async (req, res) => {
+app.get('/api/auth/callback/google', async (req, res) => {
   const { code } = req.query;
   try {
     const { tokens } = await oauth2Client.getToken(code);
