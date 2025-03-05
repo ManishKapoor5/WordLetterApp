@@ -203,6 +203,13 @@ app.get('/api/letters/:id', async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.send({
+    activeStatus:true,
+    error:false
+  }
+  )});
+
 // Start server
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
