@@ -1,0 +1,254 @@
+.home-container {
+  padding: 20px 0;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.home-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.new-letter-btn {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.new-letter-btn:hover {
+  background-color: #3367d6;
+}
+
+.letters-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.letters-container h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.no-letters {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.no-letters p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.start-writing-btn {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.start-writing-btn:hover {
+  background-color: #3367d6;
+}
+
+.letters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.letter-card {
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.letter-card h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.letter-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.letter-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn, .view-btn {
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 13px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.edit-btn {
+  background-color: #4285f4;
+  color: white;
+}
+
+.view-btn {
+  background-color: #f5f5f5;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.edit-btn:hover {
+  background-color: #3367d6;
+}
+
+.view-btn:hover {
+  background-color: #e8e8e8;
+}
+.home-container {
+  padding: 20px 0;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.home-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.new-letter-btn {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.new-letter-btn:hover {
+  background-color: #3367d6;
+}
+
+.letters-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.letters-container h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.no-letters {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.no-letters p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.start-writing-btn {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.start-writing-btn:hover {
+  background-color: #3367d6;
+}
+
+.letters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.letter-card {
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.letter-card h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.letter-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.letter-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn, .view-btn {
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 13px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.edit-btn {
+  background-color: #4285f4;
+  color: white;
+}
+
+.view-btn {
+  background-color: #f5f5f5;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.edit-btn:hover {
+  background-color: #3367d6;
+}
+
+.view-btn:hover {
+  background-color: #e8e8e8;
+}
